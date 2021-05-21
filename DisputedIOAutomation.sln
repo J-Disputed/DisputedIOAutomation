@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DisputedIOAutomation", "DisputedIOAutomation.csproj", "{FDDEBFBB-93BF-4203-B124-693EF197FF03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FDDEBFBB-93BF-4203-B124-693EF197FF03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDEBFBB-93BF-4203-B124-693EF197FF03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDEBFBB-93BF-4203-B124-693EF197FF03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDEBFBB-93BF-4203-B124-693EF197FF03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D1F46BD-94A3-445E-A99F-39C357711EA4}
+	EndGlobalSection
+EndGlobal
