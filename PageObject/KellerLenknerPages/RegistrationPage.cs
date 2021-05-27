@@ -45,8 +45,13 @@ namespace DisputedIOAutomation.PageObject.KellerLenknerPages
         public void NavigateToMercedesClintFront() => 
             driver.Navigate().GoToUrl(Environments.DevKLMercClientFront);
 
-        public void ClickFinanceOrLeaseOption(string option) =>
-            ConditionalWaits.WaitAndClick(FinanceOrLeaseRadioBtn(option));
+        public void ClickFinanceOrLeaseOption(string option)
+        {
+            ConditionalWaits
+            .WaitForElementToBecomeVisible(driver, FinanceOrLeaseRadioBtn(option), 30);
+            FinanceOrLeaseRadioBtn(option).Click();
+        }
+            
 
         public void ClickJoinAnotherMercClaimOption(string option) => 
             JoinAnotherMercClaimradioBtn(option).Click();
