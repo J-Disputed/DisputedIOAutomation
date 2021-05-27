@@ -24,8 +24,9 @@ namespace DisputedIOAutomation.Hooks
         public void BeforeScenario()
         {
             ChromeOptions options = new ChromeOptions();
-            options.AddArguments("--start-maximized", "--incognito");
-            if (UtilPath.IsHeadLess.Equals("true")) options.AddArgument("--headless");
+            //options.AddArguments("--start-maximized", "--incognito");
+            options.AddArgument("--headless");
+            //if (UtilPath.IsHeadLess.Equals("true")) options.AddArgument("--headless");
             driver = new ChromeDriver(options);
             objectContainer.RegisterInstanceAs<IWebDriver>(driver);
         }
