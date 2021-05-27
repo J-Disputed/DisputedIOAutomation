@@ -3,7 +3,7 @@
 
 Scenario: Registration Activities
 	Given I am on the KellerLenkner Mercedes client front page
-	When I select 'Yes' on did you purchase finance or lease the vehicle in England or Wales
+	#When I select 'Yes' on did you purchase finance or lease the vehicle in England or Wales
 		#And I select 'No' for have you joined another mercedes emission claim
 		#And I enter vehicle registration number 'MA16XGO'
 		#And I enter email address 'Joseph+klMerc', 'disputed.io'
