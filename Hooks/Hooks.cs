@@ -28,7 +28,7 @@ namespace DisputedIOAutomation.Hooks
             options.AddArgument("--headless");
             //if (UtilPath.IsHeadLess.Equals("true")) options.AddArgument("--headless");
             driver = new ChromeDriver(options);
-            driver.Manage().Timeouts().PageLoad = TimeSpan.FromSeconds(30);
+            driver.Manage().Timeouts().PageLoad = TimeSpan.FromMinutes(1);
             objectContainer.RegisterInstanceAs<IWebDriver>(driver);
         }
 
